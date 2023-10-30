@@ -1,0 +1,57 @@
+
+.screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+  }
+  
+  .rectangle {
+    position: absolute;
+    width: 100%; /* Set the width to 100% to cover the full container width */
+    height: 100%; /* Set the height to 100% to maintain the aspect ratio */
+    max-width: 50%; /* Limit the width to 40% of the container width */
+    max-height: 90%; /* Limit the height to 60% of the container height */
+    top: 10%; /* Adjust the top position to start a little below the top of the page */
+    left: 0; /* Align to the left of the container */
+    object-fit: cover; /* Maintain aspect ratio while covering the container */
+    border-top-right-radius: 30px 25px; /* Make the top-right corner round */
+  }
+  
+  
+  .text-wrapper {
+    max-width: 80%; /* Limit the width for responsiveness */
+    text-align: left; /* Align the text to the right */
+    font-family: "Ink Free-Regular", Helvetica;
+    font-weight: 400;
+    color: #658560;
+    font-size: 3.5vw; /* Responsive font size based on viewport width */
+    line-height: 1.2; /* Adjust line height as needed */
+    position: absolute;
+    top: 25%; /* Keep the text in a consistent position */
+    right: 24%; /* Keep the text in a consistent position */
+  }
+  
+  .are-you-tired-of {
+    position: absolute;
+    top: 54%;
+    left: 52%;
+    font-family: "More Sugar-Thin", Helvetica;
+    font-weight: 100;
+    color: #000000;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 28.1px;
+  }
+  .pexels-belen-capello {
+    position: absolute;
+    width: 60%; /* Adjust the width relative to the container */
+    height: 100%; /* Set a specific height */
+    max-width: 17%; /* Set a maximum width relative to the container */
+    top: 0%; /* Adjust the top position to start a little below the top of the page */
+    right: 0; /* Align it to the right side of the container */
+    object-fit: cover; /* Maintain aspect ratio while covering the container */
+  }
+  

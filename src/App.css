@@ -1,0 +1,32 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+/* A blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "More Sugar-Regular";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/64e0b8cceeefffdd0f7e2ba0/fonts/more-sugar-regular-ttf.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Ink Free-Regular";
+  src: url("https://anima-uploads.s3.amazonaws.com/5c5ad5224870f0000cd06210/Inkfree.ttf") format("truetype");
+}

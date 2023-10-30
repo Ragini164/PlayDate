@@ -1,0 +1,103 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eceeb3;
+    font-family: Arial, sans-serif;
+}
+
+.screen {
+    display: flex;
+    flex-direction: row; /* Display rectangles in a row */
+    height: 100vh;
+    overflow-x: hidden; /* Hide horizontal overflow */
+}
+
+.rectangle {
+    width: 50%; /* Set your desired width (30% of the viewport width) */
+    height: 95vh; /* Set the height to 90% of the viewport height */
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-right-radius: 50px; /* Add rounded corners to the top-right */
+    border-bottom-right-radius: 50px; /* Add rounded corners to the bottom-right */
+}
+
+#rectangle1 {
+    background-image: url("https://c.animaapp.com/WfK6o1Mp/img/rectangle-10.png");
+}
+
+#rectangle2 {
+    background-image: url("https://c.animaapp.com/WfK6o1Mp/img/rectangle-11.png");
+}
+
+#rectangle3 {
+    background-image: url("https://c.animaapp.com/WfK6o1Mp/img/rectangle-12.png");
+}
+
+#rectangle4 {
+    background-image: url("https://c.animaapp.com/uRQ1qVlS/img/rectangle-13.png");
+}/* Your existing CSS code */
+
+/* Add CSS for the square boxes */
+.square-box {
+    width: 15%; /* Set the width to 20% of the container width */
+    height: 10%; /* Set the height to 20% of the container height */
+    background-color: #658560;; /* Background color of the square boxes */
+    position: absolute;
+    border-radius: 15px; /* Add rounded corners to the square boxes */
+}
+
+/* Position the square boxes below each image */
+#square-box1 {
+    top: 90%; /* Adjust the top position for the first box */
+    left: 5%; /* Adjust the left position for the first box */
+}
+
+#square-box2 {
+    top: 90%; /* Adjust the top position for the second box */
+    left: 30%; /* Adjust the left position for the second box */
+}
+
+#square-box3 {
+    top: 90%; /* Adjust the top position for the third box */
+    left: 55%; /* Adjust the left position for the third box */
+}
+
+#square-box4 {
+    top: 90%; /* Adjust the top position for the fourth box */
+    left: 80%; /* Adjust the left position for the fourth box */
+}
+/* Your existing CSS code */
+
+/* Add CSS for the text wrappers inside the square boxes */
+.text-wrapper {
+    position: absolute;
+    top: 50%; /* Vertically center the text */
+    left: 50%; /* Horizontally center the text */
+    transform: translate(-50%, -50%); /* Center the text both horizontally and vertically */
+    font-family: "More Sugar-Regular", Helvetica;
+    font-weight: 400;
+    color: #c7fff5; /* Text color */
+    font-size: 40px; /* Adjust the font size as needed */
+}
+
+/* Position the text wrappers inside the square boxes */
+.text-wrapper:nth-child(1) {
+    top: 50%;
+    left: 50%;
+}
+
+.text-wrapper:nth-child(2) {
+    top: 50%;
+    left: 50%;
+}
+
+.text-wrapper:nth-child(3) {
+    top: 50%;
+    left: 50%;
+}
+
+.text-wrapper:nth-child(4) {
+    top: 50%;
+    left: 50%;
+}

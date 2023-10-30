@@ -1,0 +1,120 @@
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.app-bar {
+  background-color: #c7fff5;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-content {
+  display: flex;
+  align-items: center;
+}
+
+.right-content {
+  display: flex;
+  align-items: center;
+}
+
+.app-bar .group {
+  display: flex;
+  align-items: center;
+}
+
+.text-wrapper-2, .text-wrapper-3, .text-wrapper-4 {
+  font-family: "More Sugar-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 20px;
+  color: #433f44;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 18.7px;
+  margin-left: 30px;
+}
+
+.ri-arrow-drop-down-2 {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.text-wrapper-5 {
+  margin-right: 10px;
+  font-family: "Ink Free-Regular", Helvetica;
+  font-size: 24px;
+  color: #000000;
+  line-height: 26px;
+  white-space: nowrap;
+  margin-left: 40px;
+}
+
+.screen-container {
+  position: relative;
+  height: 100vh;
+  background-image: url("https://c.animaapp.com/Wrx0uJr5/img/pexels-sergio-souza-3198050-3.png");
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+}
+
+
+.nothing-to-see-here {
+    position: absolute;
+    top: 180px;
+    left: 100px;
+    font-family: "More Sugar-Regular", Helvetica;
+    font-weight: 400;
+    color: white; /* Change to a visible color, e.g., white */
+    font-size: 45px;
+    letter-spacing: 0;
+    line-height: normal;
+    z-index: 1;
+  }
+  
+  
+  .text-wrapper {
+    color: #fffcfc;
+  }
+  
+  .span {
+    color: #c7fff5;
+  }
+  
+
+  .rectangle {
+    position: absolute;
+    width: 400px;
+    height: 70px;
+    top: 350px;
+    left: 100px;
+    background-color: #658560;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+  
+  .div {
+    position: relative; /* Change this to relative */
+    font-family: "More Sugar-Regular", Helvetica;
+    font-weight: 400;
+    color: #c7fff5;
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 42.1px;
+    white-space: nowrap;
+  }
+  
