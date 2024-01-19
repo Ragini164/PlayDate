@@ -1,0 +1,261 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Ink Free-Regular";
+  src: url("https://anima-uploads.s3.amazonaws.com/5c5ad5224870f0000cd06210/Inkfree.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "More Sugar-Regular";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/64e0b8cceeefffdd0f7e2ba0/fonts/more-sugar-regular-ttf.otf")
+    format("opentype");
+}
+
+
+
+.login-page {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .login-page .div {
+    background-color: #ffffff;
+    width: 1920px;
+    height: 1080px;
+    position: relative;
+  }
+  
+  .login-page .overlap {
+    position: absolute;
+    width: 1284px;
+    height: 1080px;
+    top: 0;
+    left: 0;
+  }
+  
+  .login-page .overlap-group {
+    position: absolute;
+    width: 878px;
+    height: 1080px;
+    top: 0;
+    left: 0;
+  }
+  
+  .login-page .vector {
+    position: absolute;
+    width: 612px;
+    height: 1080px;
+    top: 0;
+    left: 0;
+  }
+  
+  .login-page .text-wrapper {
+    position: absolute;
+    top: 301px;
+    left: 611px;
+    font-family: "Ink Free-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 120px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .login-page .text-wrapper-2 {
+    position: absolute;
+    top: 481px;
+    left: 622px;
+    font-family: "More Sugar-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .login-page .text-wrapper-3 {
+    position: absolute;
+    top: 558px;
+    left: 622px;
+    font-family: "More Sugar-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .login-page .rectangle {
+    top: 476px;
+    position: absolute;
+    width: 444px;
+    height: 54px;
+    left: 840px;
+    background-color: #c7fff5;
+  }
+  
+  .login-page .rectangle-2 {
+    top: 553px;
+    position: absolute;
+    width: 444px;
+    height: 54px;
+    left: 840px;
+    background-color: #c7fff5;
+  }
+  
+  .login-page .button {
+    position: absolute;
+    top: 840px;
+    left: 748px;
+    font-family: "More Sugar-Thin", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+    background: none; /* Remove any background */
+    border: none; /* Remove any border */
+    padding: 0; /* Remove padding, margin, and any other styling */
+    margin: 0;
+    cursor: pointer; /* Add a pointer cursor to indicate it's clickable */
+    outline: none; /* Remove the outline when focused */
+}
+
+  .login-page .group {
+    top: 924px;
+    position: absolute;
+    width: 372px;
+    height: 73px;
+    left: 775px;
+  }
+  
+  .login-page .div-wrapper {
+    position: relative;
+    width: 370px;
+    height: 73px;
+    background-color: #658560;
+    border-radius: 60px;
+  }
+  
+  .login-page .text-wrapper-4 {
+    position: absolute;
+    top: 16px;
+    left: 66px;
+    font-family: "More Sugar-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    background: none; /* Remove any background */
+    border: none; /* Remove any border */
+    padding: 0; /* Remove padding, margin, and any other styling */
+    margin: 0;
+    cursor: pointer; /* Add a pointer cursor to indicate it's clickable */
+    outline: none; /* Remove the outline when focused */
+  }
+  
+  .login-page .overlap-wrapper {
+    top: 664px;
+    position: absolute;
+    width: 372px;
+    height: 73px;
+    left: 775px;
+  }
+  
+  .login-page .overlap-2 {
+    position: relative;
+    width: 370px;
+    height: 73px;
+    background-color: #c7fff5;
+    border-radius: 60px;
+  }
+  
+  .login-page .text-wrapper-5 {
+    position: absolute;
+    top: 17px;
+    left: 120px;
+    font-family: "More Sugar-Regular", Helvetica;
+    font-weight: 400;
+    color: #658560;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    background: none; /* Remove any background */
+    border: none; /* Remove any border */
+    padding: 0; /* Remove padding, margin, and any other styling */
+    margin: 0;
+    cursor: pointer; /* Add a pointer cursor to indicate it's clickable */
+    outline: none; /* Remove the outline when focused */
+  }
+  
+  .login-page .img {
+    position: absolute;
+    width: 431px;
+    height: 324px;
+    top: 0;
+    left: 1489px;
+  }
+  
+  .login-page .vector-2 {
+    position: absolute;
+    width: 438px;
+    height: 436px;
+    top: 644px;
+    left: 1482px;
+  }
+  
+  /* CSS for the Email Textbox */
+  input[type="text"]#email {
+    top: 476px;
+    position: absolute;
+    width: 444px;
+    height: 54px;
+    left: 840px;
+    font-family: "More Sugar-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 40px;
+    background-color: #c7fff5;
+    border: 1px solid #000000;
+  }
+  
+  /* CSS for the Password Textbox */
+  input[type="password"]#password {
+    position: absolute;
+    top: 553px;
+    position: absolute;
+    width: 444px;
+    height: 54px;
+    left: 840px;
+    background-color: #c7fff5;
+    font-family: "More Sugar-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 40px;
+    border: 1px solid #000000;
+  }

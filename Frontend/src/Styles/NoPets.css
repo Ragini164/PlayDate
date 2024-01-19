@@ -1,0 +1,177 @@
+/* A blue color as a generic focus style */
+button:focus-visible {
+    outline: 2px solid #4a90e2 !important;
+    outline: -webkit-focus-ring-color auto 5px !important;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  /* Font styles for the "no pet" screen */
+  @font-face {
+    font-family: "NoPet-MoreSugar";
+    src: url("https://anima-uploads.s3.amazonaws.com/projects/64e0b8cceeefffdd0f7e2ba0/fonts/more-sugar-regular-ttf.otf") format("opentype");
+  }
+  
+  @font-face {
+    font-family: "NoPet-InkFree";
+    src: url("https://anima-uploads.s3.amazonaws.com/5c5ad5224870f0000cd06210/Inkfree.ttf") format("truetype");
+  }
+  
+  .no-pet-body,
+  .no-pet-html {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  .no-pet-app-bar {
+    background-color: #c7fff5;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: relative !important;
+    z-index: 10 !important; */
+
+  }
+  
+  .no-pet-left-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .no-pet-right-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .no-pet-app-bar .no-pet-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* .no-pet-text-2,
+  .no-pet-text-3,
+  .no-pet-text-4 {
+    font-family: "NoPet-MoreSugar", Helvetica;
+    font-weight: 400;
+    font-size: 20px;
+    color: #433f44;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 18.7px;
+    margin-left: 30px;
+  } */
+  /* ... (existing styles) */
+
+    .no-pet-text-wrapper-2,
+    .no-pet-text-wrapper-3,
+    .no-pet-text-wrapper-4 {
+    font-family: "NoPet-MoreSugar", Helvetica;
+    font-weight: 400;
+    font-size: 20px;
+    color: #433f44;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 18.7px;
+    margin-left: 20px; /* Adjust the margin as needed */
+    }
+
+    .no-pet-text-wrapper-5 {
+    margin-right: 20px; /* Adjust the margin as needed */
+    font-family: "NoPet-InkFree", Helvetica;
+    font-size: 24px;
+    color: #000000;
+    line-height: 26px;
+    white-space: nowrap;
+    margin-left: 20px; /* Adjust the margin as needed */
+    }
+
+/* ... (existing styles) */
+
+  
+  .ri-arrow-drop-down-2 {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  /* .no-pet-text-5 {
+    margin-right: 10px;
+    font-family: "NoPet-InkFree", Helvetica;
+    font-size: 24px;
+    color: #000000;
+    line-height: 26px;
+    white-space: nowrap;
+    margin-left: 40px;
+  } */
+  
+  .no-pet-container {
+    /* position: relative; */
+    /* height: 100vh; */
+    background-image: url("https://c.animaapp.com/Wrx0uJr5/img/pexels-sergio-souza-3198050-3.png");
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .no-pet-nothing-to-see-here {
+    position: absolute;
+    top: 35%; /* Adjust as needed */
+    left: 38%; /* Adjust as needed */
+    transform: translate(-50%, -50%); /* Center the element */
+    font-family: "NoPet-MoreSugar", Helvetica;
+    font-weight: 400;
+    color: white;
+    font-size: 45px;
+    letter-spacing: 0;
+    line-height: normal;
+    z-index: 1;
+  }
+  
+  .no-pet-text-wrapper {
+    color: #fffcfc;
+  }
+  
+  .no-pet-span {
+    color: #c7fff5;
+  }
+  
+  .no-pet-rectangle {
+    position: absolute;
+    width: 500px;
+    height: 80px;
+    top: 400px;
+    left: 100px;
+    background-color: #658560;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .no-pet-div {
+    position: relative;
+    font-family: "NoPet-MoreSugar", Helvetica;
+    font-weight: 400;
+    color: #c7fff5;
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 42.1px;
+    white-space: nowrap;
+  }
+  
+  
+/*    */

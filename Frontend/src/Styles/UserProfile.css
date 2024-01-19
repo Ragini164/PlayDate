@@ -1,0 +1,428 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+ a blue color as a generic focus style */
+ button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Ink Free-Regular";
+  src: url("https://anima-uploads.s3.amazonaws.com/5c5ad5224870f0000cd06210/Inkfree.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "More Sugar-Regular";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/64e0b8cceeefffdd0f7e2ba0/fonts/more-sugar-regular-ttf.otf")
+    format("opentype");
+}
+
+
+
+.user-profile {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.user-profile .div {
+  background-color: #ffffff;
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+}
+
+.user-profile .overlap-group {
+  position: absolute;
+  width: 612px;
+  height: 1080px;
+  top: 0;
+  left: 0;
+  background-image: url(https://c.animaapp.com/oI04nqg2/img/vector-1.png);
+  background-size: 100% 100%;
+}
+
+.user-profile .rectangle {
+  position: absolute;
+  width: 470px;
+  height: 940px;
+  top: 70px;
+  left: 100px;
+  background-color: #c7fff5;
+  border-radius: 62px;
+  opacity: 0.8;
+}
+
+.user-profile .text-wrapper {
+  position: absolute;
+  width: 172px;
+  top: 448px;
+  left: 248px;
+  -webkit-text-stroke: 1px #658560;
+  font-family: "Ink Free-Regular", Helvetica;
+  font-weight: 400;
+  color: #658560;
+  font-size: 60px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 56.1px;
+  white-space: nowrap;
+}
+
+.user-profile .flexcontainer {
+  width: 295px;
+  height: 131px;
+  top: 539px;
+  left: 187px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: absolute;
+}
+
+.user-profile .text {
+  position: relative;
+  align-self: stretch;
+  font-family: "More Sugar-Regular", Helvetica;
+  font-weight: 400;
+  color: #658560;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 37.4px;
+}
+
+.user-profile .span {
+  font-family: "More Sugar-Regular", Helvetica;
+  font-weight: 400;
+  color: #658560;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 37.4px;
+}
+
+.user-profile .text-wrapper-2 {
+  position: absolute;
+  top: 795px;
+  left: 120px;
+  font-family: "More Sugar-Regular", Helvetica;
+  font-weight: 400;
+  color: #658560;
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 46.8px;
+  white-space: nowrap;
+}
+
+.user-profile .text-wrapper-3 {
+  position: absolute;
+  top: 728px;
+  left: 120px;
+  font-family: "More Sugar-Regular", Helvetica;
+  font-weight: 400;
+  color: #658560;
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 46.8px;
+  white-space: nowrap;
+}
+
+.user-profile .flexcontainer-2 {
+  width: 207px;
+  height: 104px;
+  top: 862px;
+  left: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: absolute;
+}
+
+.user-profile .span-wrapper {
+  position: relative;
+  align-self: stretch;
+  font-family: "More Sugar-Regular", Helvetica;
+  font-weight: 400;
+  color: #658560;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: 46.8px;
+}
+
+.user-profile .text-wrapper-4 {
+  font-family: "More Sugar-Regular", Helvetica;
+  font-weight: 400;
+  color: #658560;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: 46.8px;
+}
+
+.user-profile .img {
+  position: absolute;
+  width: 353px;
+  height: 335px;
+  top: 90px;
+  left: 158px;
+  object-fit: cover;
+}
+
+.user-profile .overlap {
+  position: absolute;
+  width: 1300px;
+  height: 368px;
+  top: 0;
+  left: 620px;
+}
+
+.user-profile .vector {
+  position: absolute;
+  width: 431px;
+  height: 324px;
+  top: 0;
+  left: 869px;
+}
+
+.user-profile .rectangle-2 {
+  position: absolute;
+  width: 1200px;
+  height: 298px;
+  top: 70px;
+  left: 0;
+  background-color: #658560;
+  border-radius: 62px;
+}
+
+.user-profile .rectangle-3 {
+  position: absolute;
+  width: 264px;
+  height: 258px;
+  top: 90px;
+  left: 100px;
+  background-color: #c7fff5;
+  border-radius: 62px;
+  box-shadow: -4px 3px 8px 4px #0000004c;
+}
+
+.user-profile .iconoir-heart-solid {
+  position: absolute;
+  width: 129px;
+  height: 129px;
+  top: 102px;
+  left: 167px;
+}
+
+.user-profile .text-wrapper-5 {
+  position: absolute;
+  top: 234px;
+  left: 214px;
+  font-family: "More Sugar-Regular", Helvetica;
+  font-weight: 400;
+  color: #658560;
+  font-size: 60px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 56.1px;
+  white-space: nowrap;
+}
+
+.user-profile .text-wrapper-6 {
+  position: absolute;
+  top: 294px;
+  left: 129px;
+  -webkit-text-stroke: 1px #658560;
+  font-family: "Ink Free-Regular", Helvetica;
+  font-weight: 400;
+  color: #658560;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 28.1px;
+  white-space: nowrap;
+}
+
+.user-profile .rectangle-4 {
+  position: absolute;
+  width: 264px;
+  height: 258px;
+  top: 90px;
+  left: 468px;
+  background-color: #c7fff5;
+  border-radius: 62px;
+  box-shadow: -4px 3px 8px 4px #0000004c;
+}
+
+.user-profile .rectangle-5 {
+  position: absolute;
+  width: 264px;
+  height: 258px;
+  top: 90px;
+  left: 836px;
+  background-color: #c7fff5;
+  border-radius: 62px;
+  box-shadow: -4px 3px 8px 4px #0000004c;
+}
+
+.user-profile .text-wrapper-7 {
+  position: absolute;
+  width: 87px;
+  top: 234px;
+  left: 556px;
+  font-family: "More Sugar-Regular", Helvetica;
+  font-weight: 400;
+  color: #658560;
+  font-size: 60px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 56.1px;
+}
+
+.user-profile .text-wrapper-8 {
+  position: absolute;
+  width: 87px;
+  top: 234px;
+  left: 924px;
+  font-family: "More Sugar-Regular", Helvetica;
+  font-weight: 400;
+  color: #658560;
+  font-size: 60px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 56.1px;
+}
+
+.user-profile .text-wrapper-9 {
+  position: absolute;
+  top: 294px;
+  left: 555px;
+  -webkit-text-stroke: 1px #658560;
+  font-family: "Ink Free-Regular", Helvetica;
+  font-weight: 400;
+  color: #658560;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 28.1px;
+  white-space: nowrap;
+}
+
+.user-profile .text-wrapper-10 {
+  position: absolute;
+  top: 294px;
+  left: 908px;
+  -webkit-text-stroke: 1px #658560;
+  font-family: "Ink Free-Regular", Helvetica;
+  font-weight: 400;
+  color: #658560;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 28.1px;
+  white-space: nowrap;
+}
+
+.user-profile .tabler-thumb-up {
+  position: absolute;
+  width: 119px;
+  height: 119px;
+  top: 107px;
+  left: 907px;
+}
+
+.user-profile .solar-star-line {
+  position: absolute;
+  width: 117px;
+  height: 117px;
+  top: 108px;
+  left: 541px;
+}
+
+.user-profile .overlap-2 {
+  position: absolute;
+  width: 1300px;
+  height: 662px;
+  top: 418px;
+  left: 620px;
+}
+
+.user-profile .overlap-3 {
+  position: absolute;
+  width: 1300px;
+  height: 662px;
+  top: 0;
+  left: 0;
+}
+
+.user-profile .vector-2 {
+  position: absolute;
+  width: 438px;
+  height: 436px;
+  top: 226px;
+  left: 862px;
+}
+
+.user-profile .rectangle-6 {
+  position: absolute;
+  width: 1200px;
+  height: 373px;
+  top: 0;
+  left: 0;
+  background-color: #658560;
+  border-radius: 62px;
+}
+
+.user-profile .rectangle-7 {
+  position: absolute;
+  width: 1061px;
+  height: 222px;
+  top: 118px;
+  left: 69px;
+  background-color: #c7fff5;
+  border-radius: 50px;
+}
+
+.user-profile .text-wrapper-11 {
+  position: absolute;
+  top: 41px;
+  left: 67px;
+  -webkit-text-stroke: 1px #c7fff5;
+  font-family: "Ink Free-Regular", Helvetica;
+  font-weight: 400;
+  color: #c7fff5;
+  font-size: 45px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 42.1px;
+  white-space: nowrap;
+}
+
+.user-profile .text-wrapper-12 {
+  position: absolute;
+  top: 535px;
+  left: 0;
+  font-family: "More Sugar-Regular", Helvetica;
+  font-weight: 400;
+  color: #658560;
+  font-size: 60px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 56.1px;
+  white-space: nowrap;
+}

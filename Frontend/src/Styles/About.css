@@ -1,0 +1,65 @@
+/* Add the following CSS in your screen3.css file */
+.about-rectangle {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    max-width: 50%;
+    max-height: 90%;
+    top: 10%;
+    left: 0;
+    object-fit: cover;
+    border-top-right-radius: 30px 25px;
+  }
+  
+  .about-text-wrapper {
+    max-width: 80%;
+    text-align: left;
+    font-family: "Ink Free-Regular", Helvetica;
+    font-weight: 400;
+    color: #658560;
+    font-size: 3.5vw;
+    line-height: 1.2;
+    position: absolute;
+    top: 25%;
+    right: 24%;
+  }
+  
+  .about-are-you-tired-of {
+    position: absolute;
+    top: 54%;
+    left: 52%;
+    font-family: "More Sugar-Thin", Helvetica;
+    font-weight: 100;
+    color: #000000;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 28.1px;
+  }
+  
+  .about-pexels-belen-capello {
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    max-width: 17%;
+    top: 0%;
+    right: 0;
+    object-fit: cover;
+  }
+  
+  /* About screen button styles */
+  .about-back-button {
+    background-color: #a4d4f3;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .about-back-button:hover {
+    background-color: #357abd;
+  }
+  

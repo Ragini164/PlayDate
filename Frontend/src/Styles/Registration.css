@@ -1,0 +1,350 @@
+/* Complete CSS for your HTML */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Ink Free-Regular";
+  src: url("https://anima-uploads.s3.amazonaws.com/5c5ad5224870f0000cd06210/Inkfree.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "More Sugar-Regular";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/64e0b8cceeefffdd0f7e2ba0/fonts/more-sugar-regular-ttf.otf")
+    format("opentype");
+}
+
+/* Global CSS (globals.css) */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Ink Free-Regular";
+  src: url("https://anima-uploads.s3.amazonaws.com/5c5ad5224870f0000cd06210/Inkfree.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "More Sugar-Regular";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/64e0b8cceeefffdd0f7e2ba0/fonts/more-sugar-regular-ttf.otf")
+    format("opentype");
+}
+
+/* CSS for Your HTML (style.css) */
+.registration-page {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.registration-page .div {
+  background-color: #ffffff;
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+}
+
+.registration-page .text-wrapper {
+  position: absolute;
+  top: 258px;
+  left: 872px;
+  font-family: "Ink Free-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 120px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.registration-page .text-wrapper-2 {
+  position: absolute;
+  top: 452px;
+  left: 948px;
+  font-family: "More Sugar-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.registration-page .text-wrapper-3 {
+  position: absolute;
+  top: 529px;
+  left: 948px;
+  font-family: "More Sugar-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.registration-page .text-wrapper-4 {
+  position: absolute;
+  top: 606px;
+  left: 948px;
+  font-family: "More Sugar-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.registration-page .text-wrapper-5 {
+  position: absolute;
+  top: 683px;
+  left: 948px;
+  font-family: "More Sugar-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+/* CSS for Email Text Box */
+input[type="text"]#email {
+  position: absolute;
+  top: 452px;
+  left: 1235px;
+  width: 444px;
+  height: 54px;
+  font-family: "More Sugar-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 36px;
+  background-color: #c7fff5;
+  border: 1px solid #000000;
+}
+
+/* CSS for Password Text Box */
+input[type="password"]#password {
+  position: absolute;
+  top: 529px;
+  left: 1235px;
+  width: 444px;
+  height: 54px;
+  font-family: "More Sugar-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 36px;
+  background-color: #c7fff5;
+  border: 1px solid #000000;
+}
+
+/* CSS for Re-Password Text Box */
+input[type="password"]#repassword {
+  position: absolute;
+  top: 606px;
+  left: 1235px;
+  width: 444px;
+  height: 54px;
+  font-family: "More Sugar-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 36px;
+  background-color: #c7fff5;
+  border: 1px solid #000000;
+}
+
+/* CSS for Username Text Box */
+input[type="text"]#username {
+  position: absolute;
+  top: 683px;
+  left: 1235px;
+  width: 444px;
+  height: 54px;
+  font-family: "More Sugar-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 36px;
+  background-color: #c7fff5;
+  border: 1px solid #000000;
+}
+
+
+.registration-page .text-wrapper-6 {
+  position: absolute;
+  top: 865px;
+  left: 1143px;
+  font-family: "More Sugar-Thin", Helvetica;
+  font-weight: 2000;
+  color: #000000;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+/* CSS for the "Already a User?" Button */
+button#alreadyUserButton {
+  position: absolute;
+  top: 865px;
+  left: 1143px;
+  font-family: "More Sugar-Thin", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+  background: none; /* Remove background color */
+  border: none; /* Remove the default button border */
+  cursor: pointer; /* Add a pointer cursor to indicate it's clickable */
+}
+
+
+
+.registration-page .p {
+  position: absolute;
+  top: 760px;
+  left: 990px;
+  font-family: "More Sugar-Thin", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.registration-page .group {
+  position: absolute;
+  width: 372px;
+  height: 73px;
+  top: 933px;
+  left: 1092px;
+}
+
+button#loginButton {
+  position: absolute;
+  width: 372px;
+  height: 73px;
+  top: 933px;
+  left: 1092px;
+  background-color: #658560;
+  border: none; /* Remove the default button border */
+  border-radius: 60px;
+  font-family: "More Sugar-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+  cursor: pointer; /* Add a pointer cursor to indicate it's clickable */
+}
+
+.registration-page .overlap-group {
+  position: relative;
+  width: 370px;
+  height: 73px;
+  background-color: #658560;
+  border-radius: 60px;
+}
+
+.registration-page .text-wrapper-7 {
+  position: absolute;
+  top: 15px;
+  left: 94px;
+  font-family: "More Sugar-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.registration-page .img {
+  position: absolute;
+  width: 747px;
+  height: 1080px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.registration-page .text-wrapper-8 {
+  position: absolute;
+  top: 178px;
+  left: 864px;
+  font-family: "More Sugar-Regular", Helvetica;
+  font-weight: 400;
+  color: #658560;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.registration-page .vector {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  top: 757px;
+  left: 1547px;
+}
+
+input[type="checkbox"]#termsCheckbox {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  top: 757px;
+  left: 1547px;
+  transform: scale(1); /* Adjust the scale to make the checkbox larger or smaller */
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  display: block; /* Ensure the error message is displayed */
+}
+
+.error-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 40px; /* Increased padding for a larger popup */
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  text-align: center; /* Center text horizontally */
+  font-family: 'Inter', sans-serif; /* Use the Inter font */
+}

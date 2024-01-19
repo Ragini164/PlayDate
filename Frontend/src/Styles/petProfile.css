@@ -1,0 +1,430 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Ink Free-Regular";
+  src: url("https://anima-uploads.s3.amazonaws.com/5c5ad5224870f0000cd06210/Inkfree.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "More Sugar-Regular";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/64e0b8cceeefffdd0f7e2ba0/fonts/more-sugar-regular-ttf.otf")
+    format("opentype");
+}
+
+
+
+.pet-profile {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.pet-profile .overlap-wrapper {
+  background-color: #ffffff;
+  height: 1080px;
+  width: 1920px;
+}
+
+.pet-profile .overlap {
+  height: 1080px;
+  position: relative;
+}
+
+.pet-profile .overlap-group {
+  height: 1080px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.pet-profile .vector {
+  height: 1080px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 612px;
+}
+
+.pet-profile .img {
+  height: 324px;
+  left: 1489px;
+  position: absolute;
+  top: 0;
+  width: 431px;
+}
+
+.pet-profile .rectangle {
+  height: 414px;
+  left: 110px;
+  object-fit: cover;
+  position: absolute;
+  top: 71px;
+  width: 419px;
+}
+
+.pet-profile .div {
+  background-color: #d9d9d9;
+  border-radius: 62px;
+  height: 414px;
+  left: 583px;
+  position: absolute;
+  top: 71px;
+  width: 1233px;
+}
+
+.pet-profile .rectangle-2 {
+  height: 464px;
+  left: 110px;
+  object-fit: cover;
+  position: absolute;
+  top: 540px;
+  width: 473px;
+}
+
+.pet-profile .rectangle-3 {
+  background-color: #658560;
+  border-radius: 62px;
+  height: 414px;
+  left: 583px;
+  position: absolute;
+  top: 71px;
+  width: 1233px;
+}
+
+.pet-profile .rectangle-4 {
+  background-color: #c7fff5;
+  border-radius: 15px;
+  height: 53px;
+  left: 557px;
+  position: absolute;
+  top: 745px;
+  width: 53px;
+}
+
+.pet-profile .rectangle-5 {
+  background-color: #c7fff5;
+  border-radius: 15px;
+  height: 53px;
+  left: 84px;
+  position: absolute;
+  top: 745px;
+  width: 53px;
+}
+
+.pet-profile .text-wrapper {
+  -webkit-text-stroke: 1px #c7fff5;
+  color: #c7fff5;
+  font-family: "Ink Free-Regular", Helvetica;
+  font-size: 45px;
+  font-weight: 400;
+  left: 664px;
+  letter-spacing: 0;
+  line-height: 42.1px;
+  position: absolute;
+  text-align: center;
+  top: 124px;
+  white-space: nowrap;
+}
+
+.pet-profile .text-wrapper-2 {
+  color: #c7fff5;
+  font-family: "More Sugar-Regular", Helvetica;
+  font-size: 45px;
+  font-weight: 400;
+  left: 645px;
+  letter-spacing: 0;
+  line-height: 42.1px;
+  position: absolute;
+  text-align: center;
+  top: 228px;
+  white-space: nowrap;
+}
+
+.pet-profile .text-wrapper-3 {
+  color: #c7fff5;
+  font-family: "More Sugar-Regular", Helvetica;
+  font-size: 45px;
+  font-weight: 400;
+  left: 648px;
+  letter-spacing: 0;
+  line-height: 42.1px;
+  position: absolute;
+  text-align: center;
+  top: 306px;
+  white-space: nowrap;
+}
+
+.pet-profile .text-wrapper-4 {
+  color: #c7fff5;
+  font-family: "More Sugar-Regular", Helvetica;
+  font-size: 45px;
+  font-weight: 400;
+  left: 649px;
+  letter-spacing: 0;
+  line-height: 42.1px;
+  position: absolute;
+  text-align: center;
+  top: 384px;
+  white-space: nowrap;
+}
+
+.pet-profile .rectangle-6 {
+  background-color: #d9d9d9;
+  border-radius: 25px;
+  height: 40px;
+  left: 1454px;
+  position: absolute;
+  top: 387px;
+  width: 269px;
+}
+
+.pet-profile .rectangle-7 {
+  background-color: #c7fff5;
+  border-radius: 15px;
+  height: 54px;
+  left: 855px;
+  opacity: 0.5;
+  position: absolute;
+  top: 217px;
+  width: 444px;
+}
+
+.pet-profile .rectangle-8 {
+  background-color: #c7fff5;
+  border-radius: 15px;
+  height: 54px;
+  left: 855px;
+  opacity: 0.5;
+  position: absolute;
+  top: 295px;
+  width: 444px;
+}
+
+.pet-profile .rectangle-9 {
+  background-color: #c7fff5;
+  border-radius: 15px;
+  height: 54px;
+  left: 855px;
+  opacity: 0.5;
+  position: absolute;
+  top: 373px;
+  width: 444px;
+}
+
+.pet-profile .icon-arrow-right {
+  height: 58px;
+  left: 82px;
+  position: absolute;
+  top: 742px;
+  width: 58px;
+}
+
+.pet-profile .icon-arrow-right-2 {
+  height: 58px;
+  left: 554px;
+  position: absolute;
+  top: 742px;
+  width: 58px;
+}
+
+.pet-profile .rectangle-10 {
+  height: 247px;
+  left: 1458px;
+  object-fit: cover;
+  position: absolute;
+  top: 126px;
+  width: 260px;
+}
+
+.pet-profile .text-wrapper-5 {
+  color: #658560;
+  font-family: "More Sugar-Regular", Helvetica;
+  font-size: 30px;
+  font-weight: 400;
+  left: 1479px;
+  letter-spacing: 0;
+  line-height: 28.1px;
+  position: absolute;
+  text-align: center;
+  top: 393px;
+  white-space: nowrap;
+}
+
+.pet-profile .overlap-group-2 {
+  height: 541px;
+  left: 645px;
+  position: absolute;
+  top: 539px;
+  width: 1275px;
+}
+
+.pet-profile .vector-2 {
+  height: 436px;
+  left: 837px;
+  position: absolute;
+  top: 105px;
+  width: 438px;
+}
+
+.pet-profile .rectangle-11 {
+  background-color: #658560;
+  border-radius: 20px;
+  height: 464px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 1171px;
+}
+
+.pet-profile .rectangle-12 {
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  height: 105px;
+  left: 654px;
+  position: absolute;
+  top: 1px;
+  width: 414px;
+}
+
+.pet-profile .rectangle-13 {
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  height: 105px;
+  left: 83px;
+  position: absolute;
+  top: 0;
+  width: 414px;
+}
+
+.pet-profile .rectangle-14 {
+  height: 270px;
+  left: 83px;
+  position: absolute;
+  top: 154px;
+  width: 414px;
+}
+
+.pet-profile .rectangle-15 {
+  background-color: #c7fff5;
+  border-radius: 15px;
+  height: 270px;
+  left: 654px;
+  opacity: 0.5;
+  position: absolute;
+  top: 154px;
+  width: 414px;
+}
+
+.pet-profile .point-point-point {
+  color: #ffffff;
+  font-family: "More Sugar-Regular", Helvetica;
+  font-size: 45px;
+  font-weight: 400;
+  left: 115px;
+  letter-spacing: 0;
+  line-height: 42.1px;
+  position: absolute;
+  text-align: center;
+  top: 200px;
+}
+
+.pet-profile .point-point-point-2 {
+  color: #ffffff;
+  font-family: "More Sugar-Regular", Helvetica;
+  font-size: 45px;
+  font-weight: 400;
+  left: 684px;
+  letter-spacing: 0;
+  line-height: 42.1px;
+  position: absolute;
+  text-align: center;
+  top: 190px;
+}
+
+.pet-profile .text-wrapper-6 {
+  -webkit-text-stroke: 1px #c7fff5;
+  color: #658560;
+  font-family: "Ink Free-Regular", Helvetica;
+  font-size: 45px;
+  font-weight: 400;
+  left: 176px;
+  letter-spacing: 0;
+  line-height: 42.1px;
+  position: absolute;
+  top: 32px;
+  width: 403px;
+}
+
+.pet-profile .text-wrapper-7 {
+  -webkit-text-stroke: 1px #c7fff5;
+  color: #658560;
+  font-family: "Ink Free-Regular", Helvetica;
+  font-size: 45px;
+  font-weight: 400;
+  left: 727px;
+  letter-spacing: 0;
+  line-height: 42.1px;
+  position: absolute;
+  text-align: center;
+  top: 34px;
+  white-space: nowrap;
+}
+
+
+
+
+.pet-profile .text-wrapper-edit {
+  color: #fafcfa;
+  font-family: "More Sugar-Regular", Helvetica;
+  font-size: 30px;
+  font-weight: 400;
+  left: 1479px;
+  letter-spacing: 0;
+  line-height: 28.1px;
+  position: absolute;
+  text-align: center;
+  top: 445px;
+  white-space: nowrap;
+}
+
+
+
+/* Add this to your CSS file or style tag */
+.text-wrapper-5 {
+  cursor: pointer;
+  color: #007bff; /* or your desired color */
+}
+
+.add-photo-button {
+  cursor: pointer;
+  background-color: #28a745; /* or your desired color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 10px; /* adjust as needed */
+}
+
+.add-photo-button:hover {
+  background-color: #218838; /* darker shade for hover effect */
+}

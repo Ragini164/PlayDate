@@ -1,0 +1,81 @@
+.pet-screen-html,
+.pet-screen-body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+  .dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 100%;
+  }
+  
+  .pet_wrapper {
+    width: calc(33.33% - 20px);
+    position: relative;
+    margin: 10px;
+    flex-grow: 1;
+    max-width: 300px;
+  }
+  
+  .pet_wrapper img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .pet_wrapper button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 40px;
+    background-color: #658560;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  /* Media Query for smaller screens */
+  @media screen and (max-width: 768px) {
+    .pet_wrapper {
+      width: calc(50% - 20px);
+    }
+  }
+  
+  /* Media Query for even smaller screens or mobile devices */
+  @media screen and (max-width: 480px) {
+    .pet_wrapper {
+      width: calc(100% - 20px);
+    }
+  }
+  
+  
+  /* About screen button styles */
+  .pet-screen-about-back-button {
+    background-color: #a4d4f3;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .pet-screen-about-back-button:hover {
+    background-color: #357abd;
+  }
+  
